@@ -121,16 +121,6 @@ void matChainMul(
         
         matMul(l, m, n, leftSubchainProduct, rightSubchainProduct, matChainMulProduct);
         
-        /*
-        printf("PROD MATRIX ###### l=%d m=%d n=%d \n", l, m, n);
-        for (unsigned int i=0; i<rowSizes[0]; i++) {     //initialize and populate the rows of the product matrix 
-            for (unsigned int j=0; j<colSizes[matrixCount-1]; j++) {
-                printf("%d ", matChainMulProduct[i][j]);
-            }
-            printf("\n");
-        }
-        */
-        
         // Freeing memory
         
         for (unsigned int i=0; i<rowSizes[0]; i++) {     //initialize and populate the rows of the product matrix 
