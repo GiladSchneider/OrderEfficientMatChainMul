@@ -194,7 +194,7 @@ int main(int argc, char* argv[]) {
         productMatrix[k] = (int*) malloc(sizeof(int)*(colSizes[matrixCount-1]));
     }
 
-    // cunduct chain multiplication on matrices
+    // conduct chain multiplication on matrices
     matChainMul(matrixCount, rowSizes, colSizes, matrices, productMatrix);
     
 
