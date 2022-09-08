@@ -5,5 +5,3 @@ The order in which one executes a series of matrix multiplications can drastical
 Wikipedia goes more in-depth on this https://en.wikipedia.org/wiki/Matrix_chain_multiplication
 
 For those who want faster matrix multiplication, enjoy!
-
-I did this project as an assignment for one of my classes. As per the assignment requirements, I used recursion for this algorithm. There are ways to implement this algorithm non-recursively. Those methods are given on the Wikipedia page above.
